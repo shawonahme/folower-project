@@ -49,10 +49,12 @@ text-align: center;
 #hero{
     background: rgba(229, 84, 115, 0.1);
     height: 100vh;
+    width: 100%;
     
 }
 .header_container{
-
+    width:90%;
+    margin: 0px auto;
     display: flex;
     
     height: 100%;
@@ -60,17 +62,18 @@ text-align: center;
     justify-content: space-between;
 
     /* border: 1px solid red; */
-    padding: 50px 200px;
-    gap: 20px;
+    padding-top: 40px;
+    gap: 30px;
 }
 .header_item1{
     /* border: 1px solid yellow; */
-    flex-basis:55% ;
+    flex-basis:50% ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-right: 0px ;
+    
   
 }
 .header_item1 h1{
@@ -97,11 +100,10 @@ padding-bottom: 25px;
 }
  .header_item2 {
     /* border: 1px solid yellow; */
-    width: 550px;
-    /* height: px; */
-    height: 493px;
+    width: 600px;
+    
     margin-left: 40px ;
-    flex-basis:40% ;
+    flex-basis:45% ;
     /* border: 1px solid black; */
 }
 .header_item2 img{
