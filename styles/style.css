@@ -328,11 +328,41 @@ text-align: left;
  /* contact section desgin end here  */
 /* main section desgin end here  */
 /* footer desgin start here */
+
+footer{
+    background: rgb(17, 16, 16);
+}
+.footer_head .f_h span{
+    color: rgb(229, 84, 115);
+}
+
+
+.footer_head{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+
+.footer_p{
+    color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+}
+.copy_right{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+    padding-top: 20px;
+}
 /* footer desgin end here */
-
-
-
-
-
-
  
