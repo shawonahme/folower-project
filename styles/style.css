@@ -48,17 +48,20 @@ text-align: center;
 /* header section desgin start  */
 #hero{
     background: rgba(229, 84, 115, 0.1);
+    height: 100vh;
     
 }
 .header_container{
 
     display: flex;
     
-   height: 100vh;
+    height: 100%;
+    /* width: 100%; */
     justify-content: space-between;
 
     /* border: 1px solid red; */
     padding: 50px 200px;
+    gap: 20px;
 }
 .header_item1{
     /* border: 1px solid yellow; */
@@ -67,7 +70,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 40px ;
+    margin-right: 0px ;
   
 }
 .header_item1 h1{
@@ -87,15 +90,19 @@ line-height: 30px;
 letter-spacing: 0%;
 text-align: left;
 padding-bottom: 25px;
+
 }
 .head_btn{
     text-align: left;
 }
  .header_item2 {
     /* border: 1px solid yellow; */
-    width: 600px;
-    height: 550px;
+    width: 550px;
+    /* height: px; */
+    height: 493px;
     margin-left: 40px ;
+    flex-basis:40% ;
+    /* border: 1px solid black; */
 }
 .header_item2 img{
 width: 100%;
